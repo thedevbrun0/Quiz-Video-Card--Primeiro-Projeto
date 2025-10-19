@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    padding: 40px;
+    margin: 5px;
+}
+
+.title-1 {
+    font-size: 60px;
+}
+
+.title-2 {
+    font-style: italic;
+}
+
+.container-question1, 
+.container-question2,
+.container-question3 {
+    border: 2px solid;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    background: gainsboro;
+
+}
+
+.correct-answer{
+    border: 2px solid;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    background: lightgreen;
+}
+
+.incorrect-answer{
+    border: 2px solid;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    background:lightcoral;
+}
+
+.label {
+    font-size: 22px;
+    font-family: 'calibri';
+}
+
+.paragraph {
+    font-size: 30px;
+    font-family: 'arial';
+}
+
+.reset {
+    background: red;
+    font-size: 30px;
+}
+
+.submit {
+    font-size: 30px;
+}

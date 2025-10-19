@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Vídeo Card</title>
+</head>
+
+<body>
+
+    <header class="title">
+        <h1 class="title-1">Quiz Video Card</h1>
+        <h2 class="title-2">Teste seus conhecimentos em tecnologia gráfica</h2>
+        <div class="score d-none">
+            <h2 class="title h1"></h2>
+        </div>
+    </header>
+
+    <section>
+
+        <form class="form">
+
+            <section class="container-question1">
+
+                <div class="question1">
+
+                    <p class="paragraph">O que é ray tracing?</p>
+
+                    <div class="input-question1">
+                        <label class="label">
+                            <input type="radio" name="answer1" value="A">
+                            É uma tecnologia que permite gráficos mais realistas em jogos e aplicações 3D, simulando o
+                            comportamento da luz de forma mais precisa.
+                        </label>
+                    </div>
+
+                    <div class="input-question2">
+                        <label class="label">
+                            <input type="radio" name="answer1" value="B">
+                            É uma técnica utilizada em computação gráfica para suavizar as bordas serrilhadas
+                            ou "escadas" que aparecem em imagens digitais, especialmente em gráficos 3D.
+                        </label>
+                    </div>
+
+                    <div class="input-question3">
+                        <label class="label">
+                            <input type="radio" name="answer1" value="C">
+                            É uma tecnologia de aprimoramento de imagem desenvolvida pela NVIDIA que utiliza
+                            inteligência artificial para aumentar a resolução e a qualidade visual de jogos, sem
+                            comprometer o
+                            desempenho.
+                        </label>
+                    </div>
+                </div>
+
+
+            </section>
+
+
+
+            <section class="container-question2">
+
+                <div class="question2">
+                    <p class="paragraph">O que é filtro anisotrópico?</p>
+
+                    <div class="input-question1">
+                        <label class="label">
+                            <input type="radio" name="answer2" value="A">
+                            São pequenos programas que manipulam como os gráficos são renderizados, afetando a aparência
+                            dos
+                            objetos,
+                            iluminação, texturas e efeitos visuais.
+                        </label>
+                    </div>
+
+
+                    <div class="input-question2">
+                        <label class="label">
+                            <input type="radio" name="answer2" value="B">
+                            É uma técnica de renderização usada em jogos para simular como a luz interage com objetos e
+                            superfícies
+                            em
+                            um ambiente 3D, criando sombras suaves e detalhadas que aumentam a sensação de profundidade
+                            e realismo.
+
+                        </label>
+                    </div>
+
+                    <div class="input-question3">
+                        <label class="label">
+                            <input type="radio" name="answer2" value="C">
+                            É uma técnica de computação gráfica que melhora a aparência das texturas em superfícies
+                            inclinadas em
+                            jogos
+                            e outras aplicações 3D, tornando-as mais nítidas e detalhadas, especialmente quando vistas
+                            em ângulos
+                            oblíquos.
+                        </label>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="container-question3">
+
+                <div class="question3">
+
+                    <p class="paragraph">Qual desses filtros se referem à HBAO?</p>
+                    <div class="input-question1">
+                        <label class="label">
+                            <input type="radio" name="answer3" value="A">
+                            Uma técnica que tenta melhorar a qualidade visual do SSAO, utilizando informações de
+                            horizonte para
+                            calcular
+                            a oclusão.
+                        </label>
+                    </div>
+
+                    <div class="input-question2">
+                        <label class="label">
+                            <input type="radio" name="answer3" value="B">
+                            Adiciona uma camada extra de realismo, considerando a direção da luz para criar sombras mais
+                            precisas,
+                            sem
+                            depender exclusivamente da geometria.
+                        </label>
+                    </div>
+
+                    <div class="input-question3">
+                        <label class="label">
+                            <input type="radio" name="answer3" value="C">
+                            Calcula a oclusão com base na profundidade da cena no espaço da tela. É rápido e eficiente,
+                            mas pode
+                            apresentar artefatos visuais, como sombras pouco definidas, especialmente em cenas com
+                            muitos detalhes
+                            ou em
+                            movimento.
+                        </label>
+                    </div>
+                </div>
+            </section>
+
+            <section class="text-center">
+
+                <button class="reset btn btn-primary btn-lg" type="reset">Reset</button>
+                <button class="submit btn btn-primary btn-lg">Enviar</button>
+
+        </form>
+
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
