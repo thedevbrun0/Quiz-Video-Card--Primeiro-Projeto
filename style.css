@@ -9,7 +9,7 @@
 }
 
 .title-1 {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .title-2 {
@@ -17,7 +17,7 @@
 }
 
 .container-question1, 
-.container-question2,
+.container-question2, 
 .container-question3 {
     border: 2px solid;
     text-align: center;
